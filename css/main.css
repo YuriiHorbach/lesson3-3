@@ -1,0 +1,97 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto Slab', serif;
+}
+
+header{
+	box-sizing: content-box;
+}
+
+.container{
+	width: 1200px;
+    margin: 0 auto;
+    box-sizing: content-box;
+}
+
+.container__header{
+	height: 100px;
+/* 	border:1px solid red; */
+}
+
+
+.header__logo{
+	width: 252px;
+	float: left;
+	margin: 10px 42px 0 0;
+}
+
+.header__menu{
+	float: left;
+	margin-top: 40px;
+	font-size: 14px;
+	font-weight: bold;
+
+}
+
+.header__menu-all{
+	margin: 0;
+	padding: 0;
+}
+
+.header__menu-item{
+	list-style: none;
+	float: left;
+}
+
+.header__menu-item_link {
+	text-decoration: none;
+	width: 172px;
+	padding: 10px 10px;
+}
+
+.header__menu-item_link:hover {
+	text-decoration: none;
+	background: #f7f2fe;
+	padding: 10px 10px;
+	border-radius: 3px;
+}
+
+
+.header__contact{
+	width: 179px;
+	margin-top: 8px;
+	float: right;
+	color: #300e58;
+}
+
+.header__button{
+	border: 1px solid #2f1059;
+	border-radius: 3px;
+	padding: 5px 5px 5px 12px;
+	font-weight: bold;
+	font-size: 14px;
+	color: #2f1059;
+	float: right;
+
+}
+
+.header__button_link{
+	text-decoration: none;
+
+}
+
+
+.header__tel{
+	font-size: 22px;
+	font-weight: bold;
+	margin-bottom: 7px;
+	float: right;
+}
+
+.header__call_mod{
+	padding: 7px;
+
+}
+
+
