@@ -1,0 +1,52 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto Slab', serif;
+}
+
+html {
+  min-width: 900px;
+}
+
+header{
+	box-sizing: content-box;
+}
+
+.container{
+	width: 1200px;
+    margin: 0 auto;
+    box-sizing: content-box;
+}
+
+
+
+.offer{
+	height: 600px;
+	background: url(../img/house.jpg) no-repeat center top/cover /*100% 50%*/;
+}
+
+
+.class1{
+	border: 1px solid green;
+	background: url(../img/cloud.png) no-repeat 50% 50%;
+	background-size: 88%;
+	font-size: 50px;
+}
+
+.class2{
+	border: 1px solid green;
+	
+	font-size: 50px;
+
+}
+
+.class2__1{
+	margin-top:  10px;
+}
+
+.class2__2{
+	margin-top:  10px;
+}
+
+.class2__3{
+	margin-top:  10px;
