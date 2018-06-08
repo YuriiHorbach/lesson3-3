@@ -221,71 +221,54 @@ header{
 
 }
 
-
-
-
-
-/* .class0{
-	background: url(../img/house.jpg) no-repeat;
-}
+.advantages{
+	display: block;
+	height: 386px;
 }
 
-.class1{
-	border: 1px solid red;
-
+.advantages__list{
+	
+	
+	
 }
 
-.class2{
-	border: 1px solid green;
-	background: url(../img/cloud.png); green;
-
-}
- */
-
-/*  .mainLoginInput{
-
-}
-.mainLoginInput::-webkit-input-placeholder { 
-font-family: FontAwesome;
-font-weight: normal;
-overflow: visible;
-vertical-align: top;
-display: inline-block !important;
-padding-left: 5px;
-padding-top: 2px;
+.advantages__item{
+	padding-left: 0;
+	float: left;
+	list-style: none;
+	width: 157px;
+	height: 9em;;
+	background: url(../img/bg-advantages.png) no-repeat;
+	text-align: center;
+	padding-right: 36px;
+	font-size: 17px;
 }
 
-.mainLoginInput::-moz-placeholder  { 
-font-family: FontAwesome;
-font-weight: normal;
-overflow: visible;
-vertical-align: top;
-display: inline-block !important;
-padding-left: 5px;
-padding-top: 2px;
+.advantages__item:nth-child(3){
+	//padding: 50px;
 }
 
-.mainLoginInput:-ms-input-placeholder  { 
-font-family: FontAwesome;
-font-weight: normal;
-overflow: visible;
-vertical-align: top;
-display: inline-block !important;
-padding-left: 5px;
-padding-top: 2px;
+.advantages__text{
+	padding: 49px 16px;
+	line-height: 109%;
+	width: 81%;
+	letter-spacing: 0.8pt;
 }
 
-Style the input container
-.input-container {
- display: flex;
- width: 100%;
- margin-bottom: 15px;
+.advantages__item_195{
+	margin-top: 195px;
 }
 
-Style the input fields
-.input-field {
-	font-family: FontAwesome;
- width: 100%;
- padding: 10px;
- outline: none;
-} */
+.advantages__item_98{
+	margin-top: 98px;
+}
+
+.advantages__item_46{
+	margin-top: 46px;
+}
+
+.violet-line{
+	margin-top: -21px;
+	height: 195px;
+	background: url(../img/wave1Part.png);
+}
