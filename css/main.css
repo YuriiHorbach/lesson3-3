@@ -15,7 +15,12 @@ header{
 
 .tac{
 	text-align: center;
-	
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
 .container{
@@ -307,6 +312,7 @@ header{
 
 .location{
 	margin-top: 105px;
+
 }
 
 .location__header-big{
@@ -323,6 +329,8 @@ header{
 .location__list{
 	margin-top: 40px;
 	list-style: none;
+	height: 690px;
+	padding-left: 0;
 }
 
 .location__list-item{
@@ -350,6 +358,8 @@ header{
 }
 
 
+
+
 .list-item__text-big{
 	font-size: 21px;
 	margin: 5px 0 0 0;
@@ -361,3 +371,49 @@ header{
 	margin-top: 8px;
 	padding: 0 59px;
 }
+
+/*infrastructure*/
+
+.infrastructure{
+	background: #f9fff9 url(../img/bg-city1.png)repeat-x  50% 50% ;
+	//background-size: 80%;
+
+}
+
+.infrastructure__header{
+	text-decoration: underline;
+	font-size: 37px;
+	color: #000;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding-top: 77px;
+	margin-bottom: 72;
+	
+}
+
+.infrastructure__list{
+	
+	list-style: none;
+	padding-left: 0;
+	display: inline-block;
+	margin: 0 auto;
+}
+
+.infrastructure-item{
+	float: left;
+	margin-top: 0;
+	padding-right: 15px;
+}
+
+.infrastructure-item:nth-child(3){
+	padding-right: 0;
+}
+
+.inner__list{
+	list-style: none;
+	padding: 0;
+
+}
+	
+
+
