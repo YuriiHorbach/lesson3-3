@@ -13,6 +13,11 @@ header{
 	box-sizing: content-box;
 }
 
+.tac{
+	text-align: center;
+	
+}
+
 .container{
 	width: 1200px;
     margin: 0 auto;
@@ -290,12 +295,69 @@ header{
 }
 
 
-
 .violet-line__circle{
 	text-align: center;
-	background: url(../img/text-round.png) no-repeat 58% 27%;
+	background: url(../img/text-round.png) no-repeat 58% 31%;
 	width: 142px;
 	margin: 0 auto;
-	padding-top: 27px;
+	padding-top: 42px;
 }
 
+/*location*/
+
+.location{
+	margin-top: 105px;
+}
+
+.location__header-big{
+	margin: 0;
+	font-size: 37px;
+}
+
+
+.location__header-little{
+	margin-top: 14px;
+	font-size: 20px;
+}
+
+.location__list{
+	margin-top: 40px;
+	list-style: none;
+}
+
+.location__list-item{
+	width: 370px;
+	float: left;
+	margin-right: 25px;
+	
+}
+
+.location__list-item__img{
+	box-shadow: 5px 5px 35px -11px #000000; 
+}
+
+.location__list-item:nth-child(1){
+	margin-top: -5px;
+}
+
+.location__list-item:nth-child(2){
+	margin-top: 20px;
+}
+
+
+.location__list-item:nth-child(3){
+	margin-right: 0;
+}
+
+
+.list-item__text-big{
+	font-size: 21px;
+	margin: 5px 0 0 0;
+
+}
+
+.list-item__text-little{
+	font-size: 15px;
+	margin-top: 8px;
+	padding: 0 59px;
+}
