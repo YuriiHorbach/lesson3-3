@@ -272,3 +272,30 @@ header{
 	height: 195px;
 	background: url(../img/wave1Part.png);
 }
+
+.violet-line__header, .violet-line__text{
+	color: #fff;
+	text-align: center;
+
+}
+
+.violet-line__header-position{
+	margin: 0;
+	padding-top: 25px;
+}
+
+.violet-line__text-position{
+	padding-top: 14px;
+	margin: 0;
+}
+
+
+
+.violet-line__circle{
+	text-align: center;
+	background: url(../img/text-round.png) no-repeat 58% 27%;
+	width: 142px;
+	margin: 0 auto;
+	padding-top: 27px;
+}
+
