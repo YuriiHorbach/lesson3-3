@@ -50,3 +50,24 @@ header{
 
 .class2__3{
 	margin-top:  10px;
+
+}
+
+.container__list{
+	width: 0 auto;
+	padding: 0;
+}
+
+.container__item{
+	/* width: 81px;
+	float: left;
+	padding-right: 65px;
+	list-style: none; */
+
+	float: left; /* выстраиваем блочные элементы в ряд */
+margin-right: 4px;
+width: 23px;
+height: 19px;
+overflow: hidden;
+text-align: center;
+}

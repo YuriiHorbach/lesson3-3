@@ -387,16 +387,19 @@ header{
 	text-transform: uppercase;
 	text-decoration: none;
 	padding-top: 77px;
-	margin-bottom: 72;
+	padding-bottom: 70px;
+	margin: 0;
 	
 }
 
+.menu_pos{
+	width: 100%;
+	position: absolute;
+}
+
 .infrastructure__list{
-	
 	list-style: none;
-	padding-left: 0;
-	display: inline-block;
-	margin: 0 auto;
+	margin: 0% 2%;
 }
 
 .infrastructure-item{
@@ -415,5 +418,10 @@ header{
 
 }
 	
+.infrastructure-item__header{
+	font-size: 19px;
+}
 
+.inner__item{
 
+}
