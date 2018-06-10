@@ -312,6 +312,7 @@ header{
 
 .location{
 	margin-top: 105px;
+	margin-bottom: -194px;
 
 }
 
@@ -375,8 +376,11 @@ header{
 /*infrastructure*/
 
 .infrastructure{
-	background: #f9fff9 url(../img/bg-city1.png)repeat-x  50% 50% ;
-	//background-size: 80%;
+	/* background: #f9fff9 url(../img/bg-city1.png)repeat-x 113% 80%; */
+	/* background: #f9fff9 url(../img/bg-city1.png)repeat-x -138px 314px cover; */
+	background: #f9fff9 url(../img/bg-city1.png)repeat-x center center cover;
+background-attachment: scroll;
+	padding-bottom: 100px;
 
 }
 
@@ -400,6 +404,7 @@ header{
 .infrastructure__list{
 	list-style: none;
 	margin: 0% 2%;
+	padding: 0;
 }
 
 .infrastructure-item{
@@ -407,11 +412,15 @@ header{
 	margin-top: 0;
 	line-height: 2;
 }
-.infrastructure-item:nth-child(2){
+.infrastructure-item:nth-child(1){
 	margin:  0;
 }
+
+.infrastructure-item:nth-child(2){
+	padding:0 11px;
+}
 .infrastructure-item:nth-child(3){
-	padding-right: 0;
+	margin:  0;
 }
 
 .inner__list{
@@ -437,5 +446,12 @@ header{
 
 .inner__item{
 	border-bottom: 1px solid #c9d2c9;
-	width: 294px;
+	width: 338px;
+}
+
+.green-stripe__wave{
+	height: 115px;
+	background: url(../img/wave5.png) repeat-x;
+	width: 100%;
+	margin-top: 19%;
 }
