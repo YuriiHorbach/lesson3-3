@@ -405,9 +405,11 @@ header{
 .infrastructure-item{
 	float: left;
 	margin-top: 0;
-	padding-right: 15px;
+	line-height: 2;
 }
-
+.infrastructure-item:nth-child(2){
+	margin:  0;
+}
 .infrastructure-item:nth-child(3){
 	padding-right: 0;
 }
@@ -420,8 +422,20 @@ header{
 	
 .infrastructure-item__header{
 	font-size: 19px;
+	margin-bottom: -20px;
 }
 
-.inner__item{
+.infrastructure-item__header:after{
+	content: '';
+	display: block;
+	background: url(../img/rect.png) repeat-x;
+	height: 43px;
+	margin-top: 10px;
+	width: 300px;
+}
 
+
+.inner__item{
+	border-bottom: 1px solid #c9d2c9;
+	width: 294px;
 }
