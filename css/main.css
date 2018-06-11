@@ -376,11 +376,9 @@ header{
 /*infrastructure*/
 
 .infrastructure{
-	/* background: #f9fff9 url(../img/bg-city1.png)repeat-x 113% 80%; */
-	/* background: #f9fff9 url(../img/bg-city1.png)repeat-x -138px 314px cover; */
-	background: #f9fff9 url(../img/bg-city1.png)repeat-x center center cover;
-background-attachment: scroll;
+	background: #f9fff9 url(../img/green-bg.png) repeat-x -165px 51px;
 	padding-bottom: 100px;
+	height: 656px;
 
 }
 
@@ -453,5 +451,49 @@ background-attachment: scroll;
 	height: 115px;
 	background: url(../img/wave5.png) repeat-x;
 	width: 100%;
-	margin-top: 19%;
+	margin-top: 395px;
+}
+
+/* construction */
+
+.construction{
+	margin-top: 47px;
+}
+
+.construction__header{
+	text-transform: uppercase;
+	margin: 0 0 50px 0;
+	font-size: 37px;
+}
+
+.construction__list{
+	list-style: none;
+	/* margin: 50px 0 25px 0; */
+	margin: 0 3%;
+
+}
+
+.construction__item{
+	width: 324px;
+	float: left;
+	padding-right: 58px;
+}
+
+.construction__item:nth-child(3){
+	padding-right:0;
+}
+
+.construction-item__header{
+	margin:0 0 17px 0;
+	font-size: 22px;
+}
+
+.construction-item__img{
+	display: block;
+	margin: 0 auto;
+}
+
+.construction-item__text{
+	font-size: 15px;
+	padding-left: 9px;
 }
