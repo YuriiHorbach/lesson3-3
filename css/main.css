@@ -497,3 +497,17 @@ header{
 	font-size: 15px;
 	padding-left: 9px;
 }
+
+/* construction */
+
+.complect{
+	//background: url(../img/complect-bg.png);
+}
+
+.complect__list{
+	list-style: none;	
+}
+
+.fas{
+	
+}
