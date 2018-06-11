@@ -312,7 +312,7 @@ header{
 
 .location{
 	margin-top: 105px;
-	margin-bottom: -194px;
+	margin-bottom: -293px;
 
 }
 
@@ -376,7 +376,7 @@ header{
 /*infrastructure*/
 
 .infrastructure{
-	background: #f9fff9 url(../img/green-bg.png) repeat-x -165px 51px;
+	background:  url(../img/green-bg.png) repeat-x -165px 51px;
 	padding-bottom: 100px;
 	height: 656px;
 
@@ -438,7 +438,7 @@ header{
 	background: url(../img/rect.png) repeat-x;
 	height: 43px;
 	margin-top: 10px;
-	width: 300px;
+	width: 360px;
 }
 
 
