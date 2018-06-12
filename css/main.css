@@ -129,11 +129,11 @@ header{
 	padding-top: 70px;
 }	
 
-.offer__text_bold{
+.offer__text-bold{
 	font-weight: bold;
 }
 
-.offer__text_light{
+.offer__text-light{
 	font-weight:300;
 }
 
@@ -447,7 +447,7 @@ header{
 	width: 338px;
 }
 
-.green-stripe__wave{
+.green-stripe{
 	height: 115px;
 	background: url(../img/wave5.png) repeat-x;
 	width: 100%;
