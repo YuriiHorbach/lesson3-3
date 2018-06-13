@@ -71,3 +71,7 @@ height: 19px;
 overflow: hidden;
 text-align: center;
 }
+.block{
+	margin: auto;
+	width: 227px;
+}

@@ -454,6 +454,35 @@ header{
 	margin-top: 395px;
 }
 
+.green-stripe__wrapper{
+	color: #fff;
+	width: 1060px;
+	margin: 0 auto;
+	padding-top: 26px;
+}
+
+.green-stripe__item{
+	float: left;
+	margin-right: 42px;
+}
+
+.green-stripe__item:nth-child(3){
+	margin-right: 0px;
+
+}
+
+
+.stripe-item__img{
+	margin: auto;
+	float: left;
+	margin: 4px 20px 0 0;
+}
+
+.stripe-item__text{
+	float: left;
+}
+
+
 /* construction */
 
 .construction{
@@ -547,6 +576,7 @@ header{
 
 .complect-list__item{
 	letter-spacing: -0.5px;
+	/* list-style: url(../img/list-mark.png); */
 }
 
 .fa-check-circle{
