@@ -17,6 +17,10 @@ header{
 	text-align: center;
 }
 
+.lsn{
+	list-style: none;
+}
+
 .clearfix::after {
     content: "";
     clear: both;
@@ -582,4 +586,98 @@ header{
 .fa-check-circle{
 	color: #fff;
 	padding-right: 5px;
+}
+
+/*licence*/
+
+.licence{
+	margin: 0;
+	padding-bottom: 75px;
+	width: 100%;
+	background: url(../img/licence-bg.png) repeat;
+	background-size: 71%;
+}
+
+.licence-item__header{
+	margin: 0;
+	padding: 83px 0 0 0;
+	font-size: 37px;
+}
+
+.licence-item__text{
+	margin-top: 18px;
+	font-size: 21px;
+}
+
+
+.licence-list__item{
+	float: left;
+}
+
+.licence-list{
+	padding: 55px;
+	width: 954px;
+	margin: 0 auto;	
+
+}
+
+/*footer*/
+
+.footer{
+	width: 100%;
+	background: #080808;
+	height: 112px;
+	color: #fff;
+}
+
+.footer-list{
+	padding: 22px 68px 0 0;
+	line-height: 1.4;
+	font-size: 13px;
+	margin: 0;
+}
+
+.footer-list__item{
+	float: left;
+	padding-right: 67px;
+}
+
+.footer-list__a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.footer-list__a:hover{
+	text-decoration: underline;
+	color: #fff;
+}
+
+.footer-list__item-tel{
+	margin: 0;
+	padding-right: 0;
+	float: right;
+
+}
+
+.footer-list__item-rights{
+	margin-top: 16px;
+}
+
+.footer-inList_item:first-child{
+	margin-left: -10px;
+}
+
+.header__tel-footer{
+	color: #fff;
+}
+
+.footer__button {
+    border: 1px solid #fff;
+    border-radius: 3px;
+    margin-top: 9px;
+    padding: 5px 5px 5px 12px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #fff;
+    float: right;
 }
